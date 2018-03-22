@@ -1,8 +1,5 @@
 public class ChangeWhileSynchronized implements Runnable{
   private int value;
-  public ChangeWhileSynchronized(){
-
-  }
 
   public void setValue(int value){
     this.value = value;
